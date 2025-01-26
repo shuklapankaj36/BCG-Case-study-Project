@@ -1,0 +1,31 @@
+input: 
+  # Input configurations
+  config_path: 'config/config.yaml'
+  datasets:
+    Charges_df: './data/input/Charges_use.csv'
+    Damages_df: './data/input/Damages_use.csv'
+    Endorse_df: './data/input/Endorse_use.csv'
+    primary_person_df: './data/input/Primary_Person_use.csv'
+    Restrict_df: './data/input/Restrict_use.csv'
+    units_df: './data/input/Units_use.csv'
+
+output:
+  # Output configurations
+  directory: "./data/output/"
+  format: "json"  
+
+  male_deaths_result: male_deaths_result.json
+  body_style_ethnic_group_result: body_style_ethnic_group_result.json
+  two_wheelers_result: two_wheelers_result.json
+  vehicle_make_result: vehicle_make_result.json
+  hit_and_run_result: hit_and_run_result.json
+  distinct_crash_count: distinct_crash_count.json
+  top_3_to_5_vehicles: top_3_to_5_vehicles.json
+  top_zip_codes_with_alcohol: top_zip_codes_with_alcohol.json
+  top_vehicle_makes_for_speeding: top_vehicle_makes_for_speeding.json
+  non_female_accidents: non_female_accidents.json
+
+execution:
+
+  log_level: "INFO"  
+  spark_master: "local[*]" 
