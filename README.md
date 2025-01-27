@@ -49,6 +49,25 @@ Run the main script using Python:
 ![image](https://github.com/user-attachments/assets/10badd73-f031-44ab-99cb-6f520e7b43f8)
 
 
+## Output Files
+The output files are stored in the `data/output` directory.
+
+* `male_deaths_result.json`: Analysis 1
+* `two_wheelers_result.json`: Analysis 2
+* `vehicle_make_result.json`: Analysis 3
+* `hit_and_run_result.json`: Analysis 4
+* `non_female_accidents.json`: Analysis 5
+* `top_3_to_5_vehicles.json`: Analysis 6
+* `body_style_ethnic_group_result.json`: Analysis 7
+* `top_zip_codes_with_alcohol.json`: Analysis 8
+* `distinct_crash_count.json`: Analysis 9
+* `top_vehicle_makes_for_speeding.json`: Analysis 10
+
+
+## Data
+The input data is stored in the `data/input` directory.
+
+
 ## Troubleshooting
 
 If you encounter any issues during the execution of the project, please refer to the following troubleshooting steps:
