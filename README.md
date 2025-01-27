@@ -31,46 +31,24 @@ Use 6 csv files in the input and develop your approach to perform below analytic
 The basic project structure is shown as below:
 
 BCG-Case-study-Project/
-├── data/
-│   ├── input/
-│   │   ├── primary_person.csv
-│   │   ├── units.csv
-│   │   ├── charges.csv
-│   │   ├── endorse.csv
-│   │   ├── damages.csv
-│   │   └── restrict.csv
-│   └── output/
-│       ├── male_deaths_result.json
-|       ├── distinct_crash_count.json
-│       ├── two_wheelers_result.json
-│       ├── vehicle_make_result.json
-│       ├── hit_and_run_result.json
-│       ├── non_female_accidents.json
-│       ├── top_3_to_5_vehicles.json
-│       ├── body_style_ethnic_group_result.json
-│       ├── top_zip_codes_with_alcohol.json
-│       └── top_vehicle_makes_for_speeding.json
-├── src/
-│   ├── analytics.py
-│   ├── process.py
-│   ├── result_saver.py
-│   ├── utils.py
-│   └── __init__.py
-├── main.py
-├── requirements.txt
-├── README.md
-└── LICENSE
+
 ![image](https://github.com/user-attachments/assets/6704e593-0131-48fa-994b-cba391d99b80)
 
 
 ## Installing
   Install the required libraries using pip:
-    pip install -r requirements.txt
+
+  
+![image](https://github.com/user-attachments/assets/b1bd9048-5008-470e-9230-c83c8f7ac890)
+
 
 
 ## Usage
 Run the main script using Python:
-python main.py
+
+
+![image](https://github.com/user-attachments/assets/10badd73-f031-44ab-99cb-6f520e7b43f8)
+
 
 ## Troubleshooting
 
@@ -79,4 +57,9 @@ If you encounter any issues during the execution of the project, please refer to
 *   Check the data sources and ensure they are in the correct format.
 *   Verify that the required libraries are installed correctly.
 *   Check the output files for any errors or inconsistencies.
-*   Refer to the Apache Spark and Python documentation for any specific errors or issues. 
+*   Refer to the Apache Spark and Python documentation for any specific errors or issues.
+
+  ## Built Usage
+* Pyspark - Data Processing Framework
+* Pandas - Data Analysis Library
+* Jupyter Notebook - Data Analysis Tool
