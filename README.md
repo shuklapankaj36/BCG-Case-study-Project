@@ -30,7 +30,7 @@ Use 6 csv files in the input and develop your approach to perform below analytic
 ## Project File Structure
 The basic project structure is shown as below:
 
-BCG-End-to-End-Project/
+BCG-Case-study-Project/
 ├── data/
 │   ├── input/
 │   │   ├── primary_person.csv
@@ -41,6 +41,7 @@ BCG-End-to-End-Project/
 │   │   └── restrict.csv
 │   └── output/
 │       ├── male_deaths_result.json
+|       ├── distinct_crash_count.json
 │       ├── two_wheelers_result.json
 │       ├── vehicle_make_result.json
 │       ├── hit_and_run_result.json
@@ -59,6 +60,7 @@ BCG-End-to-End-Project/
 ├── requirements.txt
 ├── README.md
 └── LICENSE
+![image](https://github.com/user-attachments/assets/6704e593-0131-48fa-994b-cba391d99b80)
 
 
 ## Installing
