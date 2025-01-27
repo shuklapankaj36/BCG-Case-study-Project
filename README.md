@@ -2,13 +2,14 @@
 This project is a comprehensive data analysis and processing pipeline built using Apache Spark and Python. It aims to provide insights into various aspects of traffic accidents and vehicle-related data.
 
 ##  Table of Contents
-Table of Contents
-About
-Requirements
-Project File Structure
-Installing
-Usage
-Troubleshooting
+* Table of Contents
+* About
+* Requirements
+* Project File Structure
+* Installing
+* Usage
+* Troubleshooting
+* Built Usage
 
 ##  About
 Use 6 csv files in the input and develop your approach to perform below analytics.
@@ -29,8 +30,6 @@ Use 6 csv files in the input and develop your approach to perform below analytic
 
 ## Project File Structure
 The basic project structure is shown as below:
-
-BCG-Case-study-Project/
 
 ![image](https://github.com/user-attachments/assets/6704e593-0131-48fa-994b-cba391d99b80)
 
